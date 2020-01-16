@@ -1,0 +1,548 @@
+[02-Jan-2020 14:42:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 4
+[02-Jan-2020 14:43:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 4
+[02-Jan-2020 14:46:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 4
+[03-Jan-2020 08:26:40 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 6
+[03-Jan-2020 08:50:55 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 6
+[03-Jan-2020 08:51:06 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 6
+[03-Jan-2020 08:51:08 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 6
+[03-Jan-2020 08:51:21 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 6
+[03-Jan-2020 10:37:16 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 11
+[03-Jan-2020 12:05:58 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\functions.php on line 5
+[03-Jan-2020 12:21:51 UTC] PHP Parse error:  syntax error, unexpected ''), NULL, '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\functions.php on line 4
+[03-Jan-2020 12:24:24 UTC] PHP Parse error:  syntax error, unexpected ''), NULL, '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\functions.php on line 4
+[03-Jan-2020 13:00:17 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php on line 11
+[03-Jan-2020 13:46:21 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php on line 22 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\post.php:6829
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php(22): wp_get_post_parent_id()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\post.php on line 6829
+[03-Jan-2020 13:46:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php on line 22 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\post.php:6829
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php(22): wp_get_post_parent_id()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\post.php on line 6829
+[03-Jan-2020 13:53:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php on line 50
+[03-Jan-2020 14:09:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function tripleMe() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php:13
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 13
+[03-Jan-2020 14:09:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function tripleMe() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php:13
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 13
+[03-Jan-2020 14:10:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function tripleMe() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php:13
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 13
+[03-Jan-2020 14:10:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function tripleMe() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php:13
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\index.php on line 13
+[06-Jan-2020 16:33:28 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php on line 43
+[06-Jan-2020 16:35:12 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php on line 72
+[06-Jan-2020 16:36:40 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\page.php on line 73
+[07-Jan-2020 08:57:37 UTC] PHP Parse error:  syntax error, unexpected 'Menu' (T_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\functions.php on line 13
+[07-Jan-2020 08:57:39 UTC] PHP Parse error:  syntax error, unexpected 'Menu' (T_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\functions.php on line 13
+[07-Jan-2020 12:52:32 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\front-page.php on line 50
+[07-Jan-2020 13:22:59 UTC] PHP Parse error:  syntax error, unexpected '/' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\header.php on line 22
+[07-Jan-2020 13:23:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_irl() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\header.php:22
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template.php(671): load_template('C:\\Users\\elena\\...', true)
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\front-page.php(1): get_header()
+#4 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#5 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#6 C:\Users\elena\Local Sites\fictional-university\app\public\inde in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\header.php on line 22
+[07-Jan-2020 13:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_irl() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\header.php:22
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template.php(671): load_template('C:\\Users\\elena\\...', true)
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\front-page.php(1): get_header()
+#4 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#5 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#6 C:\Users\elena\Local Sites\fictional-university\app\public\inde in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\header.php on line 22
+[07-Jan-2020 13:23:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_irl() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\header.php:22
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template.php(671): load_template('C:\\Users\\elena\\...', true)
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\front-page.php(1): get_header()
+#4 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#5 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#6 C:\Users\elena\Local Sites\fictional-university\app\public\inde in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\header.php on line 22
+[09-Jan-2020 07:41:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\functions.php on line 20
+[09-Jan-2020 07:42:01 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\Fictional-university-theme\functions.php on line 20
+[09-Jan-2020 07:42:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:42:10 UTC] PHP Stack trace:
+[09-Jan-2020 07:42:10 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:0
+[09-Jan-2020 07:42:10 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:10
+[09-Jan-2020 07:42:10 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 07:42:10 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:42:10 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:42:10 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:42:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:42:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:42:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:42:11 UTC] PHP Stack trace:
+[09-Jan-2020 07:42:11 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:42:11 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:42:11 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:42:11 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:42:11 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:42:11 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:42:11 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:42:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:42:26 UTC] PHP Stack trace:
+[09-Jan-2020 07:42:26 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:42:26 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:42:26 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:42:26 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:42:26 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:42:26 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:42:26 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:42:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:42:41 UTC] PHP Stack trace:
+[09-Jan-2020 07:42:41 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:42:41 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:42:41 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:42:41 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:42:41 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:42:41 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:42:41 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:43:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:43:22 UTC] PHP Stack trace:
+[09-Jan-2020 07:43:22 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:43:22 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:43:22 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:43:22 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:43:22 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:43:22 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:43:22 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:43:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:43:24 UTC] PHP Stack trace:
+[09-Jan-2020 07:43:24 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:0
+[09-Jan-2020 07:43:24 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:10
+[09-Jan-2020 07:43:24 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 07:43:24 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:43:24 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:43:24 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:43:24 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:43:24 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:43:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:43:24 UTC] PHP Stack trace:
+[09-Jan-2020 07:43:24 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:43:24 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:43:24 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:43:24 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:43:24 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:43:24 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:43:24 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:43:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:43:39 UTC] PHP Stack trace:
+[09-Jan-2020 07:43:39 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:43:39 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:43:39 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:43:39 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:43:39 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:43:39 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:43:39 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:43:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:43:54 UTC] PHP Stack trace:
+[09-Jan-2020 07:43:54 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:43:54 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:43:54 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:43:54 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:43:54 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:43:54 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:43:54 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:44:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:44:09 UTC] PHP Stack trace:
+[09-Jan-2020 07:44:09 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:44:09 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:44:09 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:44:09 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:44:09 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:44:09 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:44:09 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:44:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:44:10 UTC] PHP Stack trace:
+[09-Jan-2020 07:44:10 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:0
+[09-Jan-2020 07:44:10 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:10
+[09-Jan-2020 07:44:10 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 07:44:10 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:44:10 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:44:10 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:44:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:44:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:44:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:44:11 UTC] PHP Stack trace:
+[09-Jan-2020 07:44:11 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:44:11 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:44:11 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:44:11 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:44:11 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:44:11 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:44:11 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 07:44:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university-post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 07:44:26 UTC] PHP Stack trace:
+[09-Jan-2020 07:44:26 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[09-Jan-2020 07:44:26 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[09-Jan-2020 07:44:26 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 07:44:26 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 07:44:26 UTC] PHP   5. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 07:44:26 UTC] PHP   6. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 07:44:26 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:14:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 08:14:07 UTC] PHP Stack trace:
+[09-Jan-2020 08:14:07 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:0
+[09-Jan-2020 08:14:07 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:10
+[09-Jan-2020 08:14:08 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 08:14:08 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 08:14:08 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 08:14:08 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 08:14:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 08:14:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:14:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 08:14:10 UTC] PHP Stack trace:
+[09-Jan-2020 08:14:10 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:0
+[09-Jan-2020 08:14:10 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\edit.php:10
+[09-Jan-2020 08:14:10 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 08:14:10 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 08:14:10 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 08:14:10 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 08:14:10 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 08:14:10 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:14:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 08:14:31 UTC] PHP Stack trace:
+[09-Jan-2020 08:14:31 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post.php:0
+[09-Jan-2020 08:14:31 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post.php:12
+[09-Jan-2020 08:14:31 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 08:14:31 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 08:14:31 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 08:14:31 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 08:14:31 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 08:14:31 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:14:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 08:14:32 UTC] PHP Stack trace:
+[09-Jan-2020 08:14:32 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post-new.php:0
+[09-Jan-2020 08:14:32 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post-new.php:10
+[09-Jan-2020 08:14:32 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 08:14:32 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 08:14:32 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 08:14:32 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 08:14:32 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 08:14:33 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:14:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 08:14:34 UTC] PHP Stack trace:
+[09-Jan-2020 08:14:34 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post.php:0
+[09-Jan-2020 08:14:34 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post.php:12
+[09-Jan-2020 08:14:34 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 08:14:34 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 08:14:34 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 08:14:34 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 08:14:34 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 08:14:34 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:14:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 08:14:35 UTC] PHP Stack trace:
+[09-Jan-2020 08:14:35 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post.php:0
+[09-Jan-2020 08:14:35 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\post.php:12
+[09-Jan-2020 08:14:35 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 08:14:35 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 08:14:35 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 08:14:35 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 08:14:35 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 08:14:36 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:14:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 288
+[09-Jan-2020 08:14:40 UTC] PHP Stack trace:
+[09-Jan-2020 08:14:40 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\index.php:0
+[09-Jan-2020 08:14:40 UTC] PHP   2. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\index.php:10
+[09-Jan-2020 08:14:40 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-admin\admin.php:34
+[09-Jan-2020 08:14:40 UTC] PHP   4. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-load.php:37
+[09-Jan-2020 08:14:40 UTC] PHP   5. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-config.php:77
+[09-Jan-2020 08:14:40 UTC] PHP   6. do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-settings.php:523
+[09-Jan-2020 08:14:40 UTC] PHP   7. WP_Hook->do_action() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php:478
+[09-Jan-2020 08:14:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:312
+[09-Jan-2020 08:29:42 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:29:43 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:29:54 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:29:56 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:30:28 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:30:30 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:31:04 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:31:05 UTC] PHP Parse error:  syntax error, unexpected ''edit_item'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 8
+[09-Jan-2020 08:32:51 UTC] PHP Parse error:  syntax error, unexpected ''singular_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 10
+[09-Jan-2020 08:32:51 UTC] PHP Parse error:  syntax error, unexpected ''singular_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 10
+[09-Jan-2020 08:32:53 UTC] PHP Parse error:  syntax error, unexpected ''singular_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 10
+[09-Jan-2020 08:32:55 UTC] PHP Parse error:  syntax error, unexpected ''singular_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 10
+[09-Jan-2020 11:54:34 UTC] PHP Warning:  Use of undefined constant get_the_content - assumed 'get_the_content' (this will throw an Error in a future version of PHP) in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 64
+[09-Jan-2020 11:54:34 UTC] PHP Stack trace:
+[09-Jan-2020 11:54:34 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\index.php:0
+[09-Jan-2020 11:54:34 UTC] PHP   2. require() C:\Users\elena\Local Sites\fictional-university\app\public\index.php:17
+[09-Jan-2020 11:54:34 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php:19
+[09-Jan-2020 11:54:34 UTC] PHP   4. include() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php:98
+[09-Jan-2020 11:54:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 64
+[09-Jan-2020 11:54:55 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 64
+[09-Jan-2020 12:24:41 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/01/2020) at position 0 (2): Unexpected character in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php(29): DateTime->__construct('20/01/2020')
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 29
+[09-Jan-2020 12:25:00 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/01/2020) at position 0 (2): Unexpected character in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php(29): DateTime->__construct('20/01/2020')
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 29
+[09-Jan-2020 12:25:02 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/01/2020) at position 0 (2): Unexpected character in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php(29): DateTime->__construct('20/01/2020')
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 29
+[09-Jan-2020 12:26:01 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/01/2020) at position 0 (2): Unexpected character in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php(29): DateTime->__construct('20/01/2020')
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 29
+[09-Jan-2020 12:26:10 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (20/01/2020) at position 0 (2): Unexpected character in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php:29
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php(29): DateTime->__construct('20/01/2020')
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 29
+[09-Jan-2020 13:36:29 UTC] PHP Warning:  Use of undefined constant event_date - assumed 'event_date' (this will throw an Error in a future version of PHP) in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\front-page.php on line 28
+[09-Jan-2020 13:36:29 UTC] PHP Stack trace:
+[09-Jan-2020 13:36:29 UTC] PHP   1. {main}() C:\Users\elena\Local Sites\fictional-university\app\public\index.php:0
+[09-Jan-2020 13:36:29 UTC] PHP   2. require() C:\Users\elena\Local Sites\fictional-university\app\public\index.php:17
+[09-Jan-2020 13:36:29 UTC] PHP   3. require_once() C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php:19
+[09-Jan-2020 13:36:29 UTC] PHP   4. include() C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php:98
+[09-Jan-2020 13:53:41 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 22
+[10-Jan-2020 07:57:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 32
+[10-Jan-2020 07:58:05 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 32
+[10-Jan-2020 07:58:08 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 32
+[10-Jan-2020 07:58:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 32
+[10-Jan-2020 07:58:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 32
+[10-Jan-2020 08:37:11 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php on line 20
+[10-Jan-2020 08:43:43 UTC] PHP Parse error:  syntax error, unexpected '<', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 16
+[10-Jan-2020 08:44:09 UTC] PHP Parse error:  syntax error, unexpected '<', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 16
+[10-Jan-2020 08:45:08 UTC] PHP Parse error:  syntax error, unexpected ''labels'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 10
+[10-Jan-2020 08:45:18 UTC] PHP Parse error:  syntax error, unexpected ''labels'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 10
+[10-Jan-2020 08:45:21 UTC] PHP Parse error:  syntax error, unexpected ''labels'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\mu-plugins\university-post-types.php on line 10
+[10-Jan-2020 08:57:09 UTC] PHP Parse error:  syntax error, unexpected 'title' (T_STRING) in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-program.php on line 20
+[10-Jan-2020 08:57:12 UTC] PHP Parse error:  syntax error, unexpected 'title' (T_STRING) in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-program.php on line 20
+[10-Jan-2020 08:58:08 UTC] PHP Parse error:  syntax error, unexpected 'title' (T_STRING) in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-program.php on line 20
+[10-Jan-2020 08:58:10 UTC] PHP Parse error:  syntax error, unexpected 'title' (T_STRING) in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive-program.php on line 20
+[10-Jan-2020 09:03:31 UTC] PHP Parse error:  syntax error, unexpected ':' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 22
+[10-Jan-2020 09:03:33 UTC] PHP Parse error:  syntax error, unexpected ':' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 22
+[10-Jan-2020 10:58:07 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-program.php on line 46
+[13-Jan-2020 09:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_thimbnail() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php:22
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 22
+[13-Jan-2020 09:33:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_thimbnail() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php:22
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 22
+[13-Jan-2020 09:33:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_thimbnail() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php:22
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 22
+[13-Jan-2020 13:41:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:42:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:44:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:45:04 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 9
+[13-Jan-2020 13:45:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:46:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:50:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:51:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:51:42 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:51:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:52:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:52:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:52:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 13:55:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 14:00:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 14:00:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 14:01:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 14:03:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-professor.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[13-Jan-2020 14:03:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php on line 7 and exactly 1 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:3
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(7): pageBanner()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#4 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 3
+[14-Jan-2020 07:46:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 5
+[14-Jan-2020 07:46:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 5
+[14-Jan-2020 07:46:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\archive.php on line 5
+[14-Jan-2020 10:15:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 95
+[14-Jan-2020 10:15:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 95
+[14-Jan-2020 10:19:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getfield() in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-campus.php:17
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\elena\\...')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\elena\\...')
+#3 {main}
+  thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 17
+[14-Jan-2020 12:17:58 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 65

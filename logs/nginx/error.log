@@ -1,0 +1,31 @@
+2020/01/02 15:30:15 [alert] 16020#6140: the event "ngx_master_16020" was not signaled for 5s
+2020/01/02 15:30:30 [alert] 4792#12084: the event "ngx_master_4792" was not signaled for 5s
+2020/01/02 15:36:03 [alert] 7068#11820: the event "ngx_master_7068" was not signaled for 5s
+2020/01/07 09:50:50 [alert] 18344#13284: the event "ngx_master_18344" was not signaled for 5s
+2020/01/07 09:51:39 [alert] 17400#18640: the event "ngx_master_17400" was not signaled for 5s
+2020/01/07 09:52:12 [alert] 5076#1864: the event "ngx_master_5076" was not signaled for 5s
+2020/01/07 09:52:34 [alert] 18276#16572: the event "ngx_master_18276" was not signaled for 5s
+2020/01/07 09:52:58 [alert] 18296#11440: the event "ngx_master_18296" was not signaled for 5s
+2020/01/07 09:53:16 [alert] 19980#19268: the event "ngx_master_19980" was not signaled for 5s
+2020/01/07 09:53:38 [alert] 18896#16652: the event "ngx_master_18896" was not signaled for 5s
+2020/01/07 09:54:42 [alert] 7548#11584: the event "ngx_master_7548" was not signaled for 5s
+2020/01/07 10:04:22 [alert] 16312#15052: the event "ngx_master_16312" was not signaled for 5s
+2020/01/07 10:05:05 [alert] 12792#16308: the event "ngx_master_12792" was not signaled for 5s
+2020/01/07 10:05:26 [alert] 11584#13060: the event "ngx_master_11584" was not signaled for 5s
+2020/01/07 10:06:04 [alert] 15168#1768: the event "ngx_master_15168" was not signaled for 5s
+2020/01/07 10:06:32 [alert] 10888#15768: the event "ngx_master_10888" was not signaled for 5s
+2020/01/07 10:07:04 [alert] 10976#10672: the event "ngx_master_10976" was not signaled for 5s
+2020/01/07 10:07:29 [alert] 15744#3040: the event "ngx_master_15744" was not signaled for 5s
+2020/01/07 10:07:57 [alert] 13932#1224: the event "ngx_master_13932" was not signaled for 5s
+2020/01/07 10:08:18 [alert] 14356#9568: the event "ngx_master_14356" was not signaled for 5s
+2020/01/07 10:08:43 [alert] 1260#1172: the event "ngx_master_1260" was not signaled for 5s
+2020/01/07 10:09:08 [alert] 15448#10664: the event "ngx_master_15448" was not signaled for 5s
+2020/01/07 10:09:38 [alert] 16092#15008: the event "ngx_master_16092" was not signaled for 5s
+2020/01/07 10:10:10 [alert] 1220#16124: the event "ngx_master_1220" was not signaled for 5s
+2020/01/07 10:10:39 [alert] 3296#13948: the event "ngx_master_3296" was not signaled for 5s
+2020/01/07 10:11:16 [alert] 8680#15724: the event "ngx_master_8680" was not signaled for 5s
+2020/01/07 10:11:42 [alert] 16068#10964: the event "ngx_master_16068" was not signaled for 5s
+2020/01/07 10:12:05 [alert] 12888#9880: the event "ngx_master_12888" was not signaled for 5s
+2020/01/09 11:15:41 [alert] 8120#12576: worker process 1216 exited with code C0000142
+2020/01/09 11:15:41 [alert] 8120#12576: could not respawn worker
+2020/01/09 13:18:13 [alert] 13048#13708: the event "ngx_master_13048" was not signaled for 5s
