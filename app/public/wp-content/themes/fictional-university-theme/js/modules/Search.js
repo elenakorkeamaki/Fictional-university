@@ -2,6 +2,7 @@ import $ from 'jquery';
 
 class Search {
     //1. describe and create/initiate our object
+
     constructor() {
        this.openButton = $(".js-search-trigger");
        this.closeButton = $(".search-overlay__close");
@@ -16,15 +17,30 @@ class Search {
     }
 
     //2. events
+
+    /* kun klikataan hakutoimintoon, käynnistyy this.openOverlay-toiminto,
+       ja kun klikataan hakutoiminnosta pois, käynnistyy this.closeOverlay-toiminto,
+       kun jotain missä vaan sivustolla painiketta painetaan "alas" käynnistyy this.keyPressDispatcher eli 
+       tarkastetaan onko ctrl+s tai esc painettuna (tässä tapauksessa vain nämä) => avautuuko hakutoiminto,
+       kun hakukentällä painiketta "nostetetaan", käynnistyy this.typingLogic joka tarkastelee näytetäänkö 
+       spinneriä yms.
+
+    */
     events() {
         this.openButton.on("click", this.openOverlay.bind(this));
         this.closeButton.on("click", this.closeOverlay.bind(this));
-        $(document).on("keydown", this.keyPressSispatcher.bind(this));
+        $(document).on("keydown", this.keyPressDispatcher.bind(this));
         this.searchField.on("keyup", this.typingLogic.bind(this));
         this.typingTimer;
     }
 
     //3. methods (function, action...)
+
+    /* tässä hakuajastin nollataan aina kun hakutieto muuttuu, 
+    näytetään "spinner" ladatessa 2000s ajan (aika nollautuu aina tiedon muuttuessa),
+    kun hakukenttä tyhjennetään spinnerimerkki katoaa
+    this.previousValueen arvoksi tulee aina käyttäjän syöttämä tieto
+    */
     typingLogic() {
         if(this.searchField.val() != this.previousValue) {
             clearTimeout(this.typingTimer);
@@ -38,35 +54,36 @@ class Search {
             } else {
                 this.resultsDiv.html('');
                 this.isSprinnerVisible = false;
-            }
-
-            
-        }
-       
+            } 
+        }  
         this.previousValue = this.searchField.val();
     }
-
+    // tämä tekee haun käyttäjän syöttämäle tekstille ja palauttaa tuloksen 
     getResults() {
-        this.resultsDiv.html("Imagine real search results here...");
-        this.isSprinnerVisible = false;
+        $.getJSON('http://localhost:3000/wp-json/wp/v2/posts/?search=' + this.searchField.val(), function(posts) {
+            alert(posts[0].title.rendered);
+        });
     }
     
+     // tämä toiminto avaa hakutoiminnon 
     openOverlay() {
         this.searchOverlay.addClass("search-overlay--active");
         $("body").addClass("body-no-scroll");
         console.log("our open method just ran!");
         this.isOverlayOpen = true;
     }
-
+    // tämä toiminto sulkee hakutoiminnon 
     closeOverlay() {
         this.searchOverlay.removeClass("search-overlay--active");
         $("body").removeClass("body-no-scroll");
         console.log("our close method just ran!");
         this.isOverlayOpen = false;
     }
-    keyPressSispatcher(e) {
 
-        if (e.keyCode == 83 && !this.isOverlayOpen) {
+    // mitä näppäimiä käyttäen avautuu ja sulkeutuu hakutoiminto(83 = ctrl +s, 27 = esc)
+    keyPressDispatcher(e) {
+
+        if (e.keyCode == 83 && !this.isOverlayOpen && !$("input, textarea").is(':focus')) {
             this.openOverlay();
         }
         if(e.keyCode == 27 && this.isOverlayOpen) {

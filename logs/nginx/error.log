@@ -29,3 +29,4 @@
 2020/01/09 11:15:41 [alert] 8120#12576: worker process 1216 exited with code C0000142
 2020/01/09 11:15:41 [alert] 8120#12576: could not respawn worker
 2020/01/09 13:18:13 [alert] 13048#13708: the event "ngx_master_13048" was not signaled for 5s
+2020/01/21 15:01:08 [alert] 9892#6340: the event "ngx_master_9892" was not signaled for 5s
