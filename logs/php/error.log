@@ -546,3 +546,11 @@ Stack trace:
 #3 {main}
   thrown in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 17
 [14-Jan-2020 12:17:58 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\single-campus.php on line 65
+[23-Jan-2020 13:59:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_localize_script(), 0 passed in C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 41 and exactly 3 expected in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\functions.wp-scripts.php:193
+Stack trace:
+#0 C:\Users\elena\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php(41): wp_localize_script()
+#1 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(288): university_files('')
+#2 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\script-loader.php(2670): do_action('wp_enqueue_scri...')
+#5 C:\Users\ele in C:\Users\elena\Local Sites\fictional-university\app\public\wp-includes\functions.wp-scripts.php on line 193

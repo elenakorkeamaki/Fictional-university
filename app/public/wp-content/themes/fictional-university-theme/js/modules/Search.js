@@ -58,10 +58,19 @@ class Search {
         }  
         this.previousValue = this.searchField.val();
     }
-    // tämä tekee haun käyttäjän syöttämäle tekstille ja palauttaa tuloksen 
+    /* tämä tekee haun käyttäjän syöttämäle tekstille ja palauttaa tuloksen
+    tulostaa otsikon General Information sekä listamuodossa hakutulokset, hakee haettavan tiedon sisältävät sisällöt linkkeineen
+    Jos tuloksia löytyy, tulosta tulokset listamuodossa - jos taas ei, tulosta "No general information... 
+    Lopussa myös lisättä latausspinneri, kun hakutekstiä muuttaa, se menee päälle */
     getResults() {
-        $.getJSON('http://localhost:3000/wp-json/wp/v2/posts/?search=' + this.searchField.val(), function(posts) {
-            alert(posts[0].title.rendered);
+        $.getJSON('http://localhost:3000/wp-json/wp/v2/posts/?search=' + this.searchField.val(), posts => {
+            this.resultsDiv.html(`
+            <h2 class="search-overlay__section-title">General Information</h2>
+            ${posts.length ? '<ul class="link-list min-list">' : '<p>No general information matches that search.</p>'}
+                ${posts.map(item => `<li><a href="${item.link}">${item.title.rendered}</a></li>`).join('')}
+            ${posts.length ? '</ul>' : ''}
+            `);
+        this.isSprinnerVisible = false;
         });
     }
     
